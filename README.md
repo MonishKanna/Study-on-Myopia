@@ -11,8 +11,6 @@ The "Study on Myopia" project aims to develop a deep learning model for the clas
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -53,3 +51,33 @@ To run the project, follow these steps:
 ```bash
 git clone https://github.com/your-username/study-on-myopia.git
 cd study-on-myopia
+```
+
+## Dependencies
+
+Ensure you have the following dependencies installed:
+
+- **Python 3.x**
+- **Jupyter Notebook**
+- **NumPy, Pandas, OpenCV, Matplotlib**
+- **TensorFlow, Keras**
+- **Scikit-learn, mlxtend**
+
+Install the dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Results
+
+The trained model has shown promising results in classifying fundus images. Key outcomes include:
+
+- **Accuracy:** The model achieved a high accuracy rate on the validation set, indicating its ability to generalize well to new data.
+
+- **Loss:** The loss metric, which measures the model's deviation from the actual labels, reached a satisfactory level, demonstrating effective training.
+
+- **Confusion Matrix:** The confusion matrix provides a detailed breakdown of the model's predictions, including true positives, true negatives, false positives, and false negatives. This aids in understanding the model's performance on different classes.
+
+These results collectively indicate the model's capability to distinguish between normal and cataract-indicative fundus images.
+
